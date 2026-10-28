@@ -1,0 +1,12 @@
+# Dependencies for FLUX 3 Image Klein on Intel Arc A770 (torch.xpu)
+# Note: torch, torchvision, and triton-xpu are already installed from the PyTorch XPU index.
+# vLLM and CUDA Triton are excluded because they are CUDA/Linux-only and not needed by flux3_xpu.
+
+transformers>=4.48.0
+tokenizers>=0.21.0
+accelerate>=1.1.0
+safetensors>=0.4.5
+gradio>=4.44.0
+gradio_image_annotation>=0.5.0
+comfy-kitchen>=0.2.40
+
